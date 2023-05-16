@@ -1,0 +1,5 @@
+Invalid input on line 1
+Invalid input on line 3
+[-6, -2, -1, 5, 66]
+[22, 43, 356, 433, 444]
+[21, 21, 23, 33, 34]
