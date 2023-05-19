@@ -93,11 +93,13 @@ public final class SelectSort {
         final int n = array.length;
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
+            // Find the smallest number.
             for (int j = i + 1; j < n; j++) {
                 if (array[j] < array[minIndex]) {
                     minIndex = j;
                 }
             }
+            // Swap numbers around
             if (minIndex != i) {
                 final int temp = array[i];
                 array[i] = array[minIndex];
